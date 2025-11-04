@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+execute:
+  freeze: auto
+  cache: true
+
+format:
+  html:
+    toc: true
+    respect-user-color-scheme: true
+    from: "markdown+emoji"
+    page-navigation: true
+    theme:
+      light: flatly
+      dark: darkly
+    fontsize: 20px
+
+website:
+  title: "Unofficial UDST Wiki"
+  sidebar:
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/coglinks/udst-wiki
+          - text: Report an Issue
+            href: https://github.com/coglinks/udst-wiki/issues
+    style: "docked"
+    contents:
+      - section: "Wiki"
+        contents:
+          - ./wiki/q-and-a.qmd
+      - section: "About"
+        contents:
+          - about/about.qmd
+          - ./about/contributing.qmd
