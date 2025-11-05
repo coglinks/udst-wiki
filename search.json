@@ -26,7 +26,7 @@
     "href": "about/contributing.html",
     "title": "How Do I Contribute?",
     "section": "",
-    "text": "You can submit a Q&A by commenting in this post. If you can, please format your submission in markdown. You can checkout what markdown looks like using this site. Thank you\nThis website is built using quarto. You can head over to quarto’s site to look up how to use markdown, see recommended editors, how to build a site with quarto and the like.",
+    "text": "You can submit a Q&A by commenting in this post. That’s all you need to do.\nIf you can (you don’t need to do this but it would make my life easier), please format your submission in the recommended markdown formatting shown in the note below. You can checkout what markdown looks like using this site.\n\n\n\n\n\n\nNote\n\n\n\n##### Q. What does a nicely formatted question look like?\n\n**Ans:**\n\nThis is what it looks like\n\n&lt;Anything else you want to add. It can be images, tables, whatever&gt;\n\n\nThe below note is what the above would look like rendered:\n\n\n\n\n\n\nNote\n\n\n\nQ. What does a nicely formatted question look like?\nAns:\nThis is what it looks like\n&lt;Anything else you want to add. It can be images, tables, whatever&gt;\n\n\nThis website is built using quarto. You can head over to quarto’s site to look up how to use markdown, see recommended editors, how to build a site with quarto and the like.",
     "crumbs": [
       "About",
       "How Do I Contribute?"
